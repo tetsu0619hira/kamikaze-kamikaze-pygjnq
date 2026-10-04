@@ -25,7 +25,13 @@
 
 ## 公開設定
 GitHub public repository: `tetsu0619hira/kamikaze-kamikaze-pygjnq`。GitHub Pages: `main` ブランチのルート。
-予定URL: https://tetsu0619hira.github.io/kamikaze-kamikaze-pygjnq/
+公開URL: https://tetsu0619hira.github.io/kamikaze-kamikaze-pygjnq/
 
 ## 差し替え時
 店舗確認後に要確認文言を確定情報へ変更し、実際の店舗写真に差し替える。正式公開の際は店舗許可、デモ表記、検索公開設定を別途確認する。
+
+## 検証結果（2026-10-04）
+- 375pxスマホ／1440px PCでブラウザ表示を確認。横はみ出しなし。スマホ下部固定バー・キャプション・電話導線を確認。主要本文16px以上。
+- 公開ページで住所検索のGoogleマップ描画を確認。ローカル確認時の地図描画待ちも公開版では解消。
+- 全画像の読み込み、各200KB未満、指定の地図URL完全一致、noindex、viewport-fit=cover、フォームなし、telリンクを検証。実際の発信や店舗への連絡は実施していない。
+- GitHub Pages status=built、PUBLIC、main /、HTTPS有効、公開URLでサイト表示を確認。
